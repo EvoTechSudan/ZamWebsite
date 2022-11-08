@@ -516,7 +516,7 @@ font-size: 16px;
 
 .footer-logo {
 
-width: 20%;
+width: 30%;
 }
 .footer-contact {
     width: 30%;
@@ -537,12 +537,15 @@ width: 20%;
 }
 .footer-contact-sub {
     cursor: pointer;
+    font-size: 18px;
+    margin: 0 0 30px;
 
 }
 .bottom-box-media {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 72.24px;
 }
 .bottom-box-media-links {
     margin: 0 12px;
@@ -551,6 +554,7 @@ width: 20%;
 .evo {
     display: flex;
     justify-content: center;
+    font-size: 17px;
 }
 .fa-facebook {
     color: #000000;
@@ -647,7 +651,8 @@ width: 20%;
 
   @media screen and (max-width:767px){
     .cards {
-        width: 220px;
+        width: 225px;
+        height: 260px;
     }
     .about-text {
         font-size: 20px;
@@ -655,8 +660,28 @@ width: 20%;
     .about-img {
         width: 430px;
     }
+    .product-container-row {
+        padding: 0 7px;
+    }
     .product-card {
+        height: 500px;
         margin: 0px 5px;
+    }
+    .product-img {
+        height: 335px;
+    }
+    .product-info {
+        height: 240px;
+    }
+    .product-info-name {
+        font-size: 25px;
+    }
+    .product-info-description {
+        font-size: 19px;
+    }
+    .product-info-badge {
+        width: 60px;
+        font-size: 18px;
     }
     .contact-container {
         flex-direction: column;
@@ -679,9 +704,11 @@ width: 20%;
     }
     .nav-option-item1, .nav-option-item2, .nav-option-item3, .nav-option-item4 {
         margin-right: 55px;
+        font-size: 18px;
     }
     .active {
         margin-right: 40px;
+        font-size: 18px;
     }
     .contact-text {
         width: 100%;
@@ -719,5 +746,12 @@ width: 20%;
     }
     .home-sub-title {
         text-align: center;
+        font-size: 22px;
+    }
+    .cards> h3 {
+        font-size: 22px;
+    }
+    .contact-text-form-name1, .contact-text-form-name  {
+        font-size: 18px;
     }
   }
