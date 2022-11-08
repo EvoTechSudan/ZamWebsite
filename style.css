@@ -754,4 +754,7 @@ width: 30%;
     .contact-text-form-name1, .contact-text-form-name  {
         font-size: 18px;
     }
+    .contact-text-form {
+        height: 420px;
+    }
   }
