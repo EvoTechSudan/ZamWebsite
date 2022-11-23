@@ -1426,6 +1426,9 @@ a46b16
     background-color: #fff;
     width: 220px;
     position: absolute;
+    max-height: 350px;
+    overflow: hidden;
+    overflow-y: scroll;
     left: 0;
     top: 100%;
     z-index: 10;
@@ -1851,9 +1854,16 @@ a46b16
 @media (max-width: 991px) {
   .header-style-1 .search-contact, .header-style-2 .search-contact, .header-style-3 .search-contact {
     right: 55px;
-    top: 16px;
+    /* top: 16px; */
     height: 0;
     line-height: 0;
+  }
+  .theme-btn2{
+    margin-top: 6px;
+    height: 35px;
+    /* text-align: center; */
+    /* padding: 0 10px; */
+    padding-top: 10px;
   }
 }
 
@@ -2293,6 +2303,9 @@ a46b16
   content: "\e628";
   font-size: 15px;
   color: #d4d3d3;
+}
+.swiper-button-next2:before {
+  content: url("../images/arrow.png");
 }
 
 .hero-slider .swiper-pagination-bullet {
@@ -7320,6 +7333,8 @@ a46b16
 
 .moreBtn {
   float: right;
+  content: url("../images/arrow.png");
+  transform: rotate(180deg);
 }
 
 @media screen and (min-width: 767px) {
@@ -7332,6 +7347,9 @@ a46b16
 
 .shop-single-section .slider-nav .slick-slide:focus {
   outline: none;
+}
+.rtl{
+  float: right !important;
 }
 
 /*# sourceMappingURL=style.css.map */
