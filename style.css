@@ -516,7 +516,7 @@ font-size: 16px;
 
 .footer-logo {
 
-width: 30%;
+width: 20%;
 }
 .footer-contact {
     width: 30%;
@@ -758,3 +758,25 @@ width: 30%;
         height: 420px;
     }
   }
+
+.product{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: calc(100vh - 170px);
+}
+.img-container {
+    width: 40%;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+.img-container img{
+    width: 100%;
+    object-fit:contain
+}
+.details{
+    width: 60%;
+    padding: 30px;
+}
