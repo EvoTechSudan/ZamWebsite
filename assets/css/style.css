@@ -2672,11 +2672,19 @@ a46b16
   .site-footer .link-widget {
     padding-left: 20px;
   }
+  .site-footer .arabic-link-widget {
+    padding-right: 20px;
+    padding-left: 0px;
+  }
 }
 
 @media (max-width: 1199px) {
   .site-footer .link-widget {
     padding-left: 20px;
+  }
+  .site-footer  .arabic-link-widget {
+    padding-right: 20px;
+    padding-left: 0px;
   }
 }
 
@@ -2695,6 +2703,11 @@ a46b16
 .site-footer .link-widget ul {
   width: 50%;
   float: left;
+}
+.site-footer .arabic-link-widget ul {
+  width: 100%;
+  float: right;
+  padding: 0;
 }
 
 .site-footer .link-widget ul li {
@@ -2723,6 +2736,10 @@ a46b16
 
 .site-footer .contact-widget ul {
   margin-top: 25px;
+}
+.site-footer .arabic-contact-widget ul {
+  margin-top: 25px;
+  padding: 0;
 }
 
 .site-footer .contact-widget ul li {
